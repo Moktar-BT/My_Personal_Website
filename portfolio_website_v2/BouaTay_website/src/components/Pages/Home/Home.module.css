@@ -1,0 +1,49 @@
+.home_container {
+  display: flex;
+  position: absolute;
+  /* background-color:rgb(173, 22, 22) ; */
+  width: 1366px;
+  height: 100%;
+  top: 0;
+  left: 341.5px;
+
+}
+.span0 {
+    /* background-color: aqua; */
+    width: 680px;
+    margin-top: 300px;
+    position: relative;
+    font-family: "Montserrat";
+    color: rgb(190, 185, 185);
+    font-size: 20.5px;
+    margin-left: 100px;
+  }
+  .span1 {
+    font-size: 70px;
+    color: azure;
+   
+  }
+  .span2 {
+    font-size: 50px;
+    color:#b338ff;
+  }
+  .pdp {
+    display: flex;
+    position: relative;
+    width: 450px;
+    height: 450px;
+  
+    /* margin-left: 30px; */
+    margin-top: 150px;
+    opacity: 78%;
+  }
+  .span3{
+      border-bottom: 1px solid rgb(190, 185, 185) ;
+  
+  
+  }
+  .span21{
+    color: #f21dee;
+  }.span22{
+    color: #E033FE;
+  }

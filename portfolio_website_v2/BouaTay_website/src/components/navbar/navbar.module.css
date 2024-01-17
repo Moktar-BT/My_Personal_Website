@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Manrope:wght@200&family=Montserrat:ital,wght@0,600;0,700;1,700&family=Roboto:ital,wght@1,300;1,900&display=swap");
+
+.navbar_container {
+  display: flex;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.896);
+  width: 360px;
+  height: 100%;
+  border-right: solid white 2px;
+}
+.logo {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-left: 85px;
+  margin-top: 50px;
+  height: 190px;
+  width: 190px;
+}
+.links_container {
+  display: flex;
+  position: relative;
+  font-family: "Montserrat";
+  font-size: 23px;
+  height: 30px;
+  width: 150px;
+  margin-top: 300px;
+  margin-left: -225px;
+  top: 0;
+  left: 0;
+}
+.home_button {
+  display: flex;
+  position: relative;
+  color: blanchedalmond;
+  margin-bottom: 30px;
+  text-decoration: none;
+  width: 74px;
+}
+.home_button::after {
+  content: "";
+  position: absolute;
+  background-color: #f21dee;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+.home_button:hover:after {
+  width: 100%;
+}
+.about_button {
+  display: flex;
+  position: relative;
+  color: blanchedalmond;
+  width: 120px;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+.about_button::after {
+  content: "";
+  position: absolute;
+  background-color: #E033FE;
+  height: 4px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+.about_button:hover:after {
+  width: 100%;
+}
+.portfolio_button {
+  display: flex;
+  position: relative;
+  color: blanchedalmond;
+  margin-bottom: 30px;
+  text-decoration: none;
+  width: 104px;
+}
+.portfolio_button::after {
+  content: "";
+  position: absolute;
+  background-color:#E033FE;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+.portfolio_button:hover:after {
+  width: 100%;
+}
+.contact_button {
+  display: flex;
+  position: relative;
+  color: blanchedalmond;
+  text-decoration: none;
+  width: 98px;
+}
+.contact_button::after {
+  content: "";
+  position: absolute;
+  background-color: #b338ff;
+  height: 4px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+.contact_button:hover:after {
+  width: 100%;
+}
+.contact_container {
+  display: flex;
+  position: relative;
+  margin-top: 290px;
+  margin-left: -204px;
+  width: 320px;
+  height: 184px;
+  padding-top: 10px;
+}
+.phone {
+  display: flex;
+  position: relative;
+  width: 38px;
+  height: 38px;
+  margin-left: 35px;
+}
+.plus {
+  display: flex;
+  position: relative;
+  color: blanchedalmond;
+  font-family: "Montserrat";
+  margin-top: -40px;
+  margin-left: 66px;
+}
+.num216 {
+  display: flex;
+  position: relative;
+  text-decoration: underline;
+  color: blanchedalmond;
+  font-family: "Montserrat";
+  margin-top: -33px;
+  margin-left: 83px;
+  font-size: 21px;
+}
+.num {
+  display: flex;
+  position: relative;
+  color: blanchedalmond;
+  font-family: "Montserrat";
+  margin-top: -32px;
+  margin-left: 120px;
+  font-size: 21px;
+}
+.mail {
+  display: flex;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin-left: -185px;
+  margin-top: 50px;
+}
+.gmail {
+  display: flex;
+  position: relative;
+  color: blanchedalmond;
+  font-family: "Montserrat";
+  font-size: 17px;
+  margin-left: -144px;
+  margin-top: -35px;
+}
+
+.facebook {
+  display: flex;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin-left: -10px;
+}
+.instagram {
+  display: flex;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin-left: -10px;
+}
+.linkedin {
+  display: flex;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin-left: -10px;
+}
+.social {
+  display: flex;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin-left: -10px;
+}
+.socialmedia {
+  display: flex;
+  position: relative;
+  margin-top: 110px;
+  margin-left: -247px;
+  /* background-color: brown; */
+  width: 210px;
+  height: 50px;
+  justify-content: space-between;
+}

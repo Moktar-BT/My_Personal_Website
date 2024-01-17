@@ -1,0 +1,10 @@
+.portfolio_container {
+    display: flex;
+    position: absolute;
+    /* background-color:rgb(173, 22, 22) ; */
+    width: 1366px;
+    height: 100%;
+    top: 0;
+    left: 341.5px;
+  
+  }
